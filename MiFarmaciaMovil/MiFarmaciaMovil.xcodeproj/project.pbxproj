@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84394CBB2BD083AB00ABB41A /* MantenerCategoriasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84394CBA2BD083AB00ABB41A /* MantenerCategoriasViewController.swift */; };
+		84394CBD2BD08B5C00ABB41A /* ListarCategoriasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84394CBC2BD08B5C00ABB41A /* ListarCategoriasViewController.swift */; };
 		B7D1B1BE2BCC564B00988838 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D1B1BD2BCC564B00988838 /* AppDelegate.swift */; };
 		B7D1B1C02BCC564B00988838 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D1B1BF2BCC564B00988838 /* SceneDelegate.swift */; };
 		B7D1B1C22BCC564B00988838 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D1B1C12BCC564B00988838 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84394CBA2BD083AB00ABB41A /* MantenerCategoriasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MantenerCategoriasViewController.swift; sourceTree = "<group>"; };
+		84394CBC2BD08B5C00ABB41A /* ListarCategoriasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListarCategoriasViewController.swift; sourceTree = "<group>"; };
 		B7D1B1BA2BCC564B00988838 /* MiFarmaciaMovil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiFarmaciaMovil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7D1B1BD2BCC564B00988838 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7D1B1BF2BCC564B00988838 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				B7D1B1C62BCC564C00988838 /* Assets.xcassets */,
 				B7D1B1C82BCC564C00988838 /* LaunchScreen.storyboard */,
 				B7D1B1CB2BCC564C00988838 /* Info.plist */,
+				84394CBA2BD083AB00ABB41A /* MantenerCategoriasViewController.swift */,
+				84394CBC2BD08B5C00ABB41A /* ListarCategoriasViewController.swift */,
 			);
 			path = MiFarmaciaMovil;
 			sourceTree = "<group>";
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84394CBB2BD083AB00ABB41A /* MantenerCategoriasViewController.swift in Sources */,
 				B7D1B1C22BCC564B00988838 /* ViewController.swift in Sources */,
 				B7D1B1BE2BCC564B00988838 /* AppDelegate.swift in Sources */,
 				B7D1B1C02BCC564B00988838 /* SceneDelegate.swift in Sources */,
+				84394CBD2BD08B5C00ABB41A /* ListarCategoriasViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
