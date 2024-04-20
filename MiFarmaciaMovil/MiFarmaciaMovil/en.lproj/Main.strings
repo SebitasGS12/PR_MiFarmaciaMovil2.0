@@ -1,0 +1,21 @@
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "Ac4-l5-Abg"; */
+"Ac4-l5-Abg.title" = "Item";
+
+/* Class = "UILabel"; text = "Nombre"; ObjectID = "Ekn-nU-Tdb"; */
+"Ekn-nU-Tdb.text" = "Nombre";
+
+/* Class = "UINavigationItem"; title = "Mantener Categorias"; ObjectID = "Jjl-4U-Fik"; */
+"Jjl-4U-Fik.title" = "Mantener Categorias";
+
+/* Class = "UIBarButtonItem"; title = "Regresar"; ObjectID = "Yk1-Sg-rMD"; */
+"Yk1-Sg-rMD.title" = "Regresar";
+
+/* Class = "UINavigationItem"; title = "Inventario"; ObjectID = "peQ-eq-vPX"; */
+"peQ-eq-vPX.title" = "Inventario";
+
+/* Class = "UIButton"; configuration.title = "Agregar"; ObjectID = "zVe-Ru-rGf"; */
+"zVe-Ru-rGf.configuration.title" = "Agregar";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "zVe-Ru-rGf"; */
+"zVe-Ru-rGf.normalTitle" = "Button";
