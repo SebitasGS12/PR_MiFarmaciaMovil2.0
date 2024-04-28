@@ -13,9 +13,7 @@
 		B74766CF2BD55FBD00AC3535 /* StoryboardPrueba.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B74766CE2BD55FBD00AC3535 /* StoryboardPrueba.storyboard */; };
 		B74766D12BD5608700AC3535 /* EmpleadosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74766D02BD5608700AC3535 /* EmpleadosViewController.swift */; };
 		B74766D32BD561ED00AC3535 /* EmpleadoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74766D22BD561ED00AC3535 /* EmpleadoTableViewCell.swift */; };
-		B756AF262BDEC65B0049C8E5 /* CrearCuentaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B756AF242BDEC65B0049C8E5 /* CrearCuentaViewController.swift */; };
-		B756AF272BDEC65B0049C8E5 /* ListarCategoriasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B756AF252BDEC65B0049C8E5 /* ListarCategoriasTableViewCell.swift */; };
-		B756AF2A2BDEC6DA0049C8E5 /* FarmaciaDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B756AF282BDEC6DA0049C8E5 /* FarmaciaDataModel.xcdatamodeld */; };
+		B7CB49A12BDEC92D00D04B02 /* FarmaciaDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B7CB499F2BDEC92D00D04B02 /* FarmaciaDataModel.xcdatamodeld */; };
 		B7D1B1BE2BCC564B00988838 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D1B1BD2BCC564B00988838 /* AppDelegate.swift */; };
 		B7D1B1C02BCC564B00988838 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D1B1BF2BCC564B00988838 /* SceneDelegate.swift */; };
 		B7D1B1C22BCC564B00988838 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D1B1C12BCC564B00988838 /* ViewController.swift */; };
@@ -31,10 +29,8 @@
 		B74766CE2BD55FBD00AC3535 /* StoryboardPrueba.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StoryboardPrueba.storyboard; sourceTree = "<group>"; };
 		B74766D02BD5608700AC3535 /* EmpleadosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpleadosViewController.swift; sourceTree = "<group>"; };
 		B74766D22BD561ED00AC3535 /* EmpleadoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpleadoTableViewCell.swift; sourceTree = "<group>"; };
-		B756AF242BDEC65B0049C8E5 /* CrearCuentaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CrearCuentaViewController.swift; path = ../../../PROYECTO_DAMII/PR_MiFarmaciaMovil2.0/MiFarmaciaMovil/MiFarmaciaMovil/CrearCuentaViewController.swift; sourceTree = "<group>"; };
-		B756AF252BDEC65B0049C8E5 /* ListarCategoriasTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListarCategoriasTableViewCell.swift; path = ../../../PROYECTO_DAMII/PR_MiFarmaciaMovil2.0/MiFarmaciaMovil/MiFarmaciaMovil/ListarCategoriasTableViewCell.swift; sourceTree = "<group>"; };
-		B756AF292BDEC6DA0049C8E5 /* FarmaciaDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FarmaciaDataModel.xcdatamodel; sourceTree = "<group>"; };
 		B756AF2C2BDEC70B0049C8E5 /* ListarCategoriasTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListarCategoriasTableViewCell.swift; sourceTree = "<group>"; };
+		B7CB49A02BDEC92D00D04B02 /* FarmaciaDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FarmaciaDataModel.xcdatamodel; sourceTree = "<group>"; };
 		B7D1B1BA2BCC564B00988838 /* MiFarmaciaMovil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiFarmaciaMovil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7D1B1BD2BCC564B00988838 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7D1B1BF2BCC564B00988838 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,25 +62,35 @@
 			path = categorias;
 			sourceTree = "<group>";
 		};
-		B756AF2D2BDEC7170049C8E5 /* productos */ = {
+		B7CB499E2BDEC8DD00D04B02 /* unidadMedida */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = productos;
+			path = unidadMedida;
 			sourceTree = "<group>";
 		};
-		B756AF2E2BDEC72A0049C8E5 /* usuario */ = {
+		B7CB49A62BDECA1800D04B02 /* producto */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = usuario;
+			path = producto;
 			sourceTree = "<group>";
 		};
-		B756AF2F2BDEC7340049C8E5 /* empleados */ = {
+		B7CB49A72BDECA2600D04B02 /* empleado */ = {
+			isa = PBXGroup;
+			children = (
+				B74766D02BD5608700AC3535 /* EmpleadosViewController.swift */,
+				B74766D22BD561ED00AC3535 /* EmpleadoTableViewCell.swift */,
+				B707F5A42BD42B0200C31998 /* MenuAdministrdorViewController.swift */,
+			);
+			path = empleado;
+			sourceTree = "<group>";
+		};
+		B7CB49A92BDECAF200D04B02 /* proveedor */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = empleados;
+			path = proveedor;
 			sourceTree = "<group>";
 		};
 		B7D1B1B12BCC564B00988838 = {
@@ -106,9 +112,10 @@
 		B7D1B1BC2BCC564B00988838 /* MiFarmaciaMovil */ = {
 			isa = PBXGroup;
 			children = (
-				B756AF2F2BDEC7340049C8E5 /* empleados */,
-				B756AF2E2BDEC72A0049C8E5 /* usuario */,
-				B756AF2D2BDEC7170049C8E5 /* productos */,
+				B7CB49A92BDECAF200D04B02 /* proveedor */,
+				B7CB49A72BDECA2600D04B02 /* empleado */,
+				B7CB49A62BDECA1800D04B02 /* producto */,
+				B7CB499E2BDEC8DD00D04B02 /* unidadMedida */,
 				B756AF2B2BDEC6F40049C8E5 /* categorias */,
 				B7D1B1BD2BCC564B00988838 /* AppDelegate.swift */,
 				B7D1B1BF2BCC564B00988838 /* SceneDelegate.swift */,
@@ -117,13 +124,8 @@
 				B7D1B1C62BCC564C00988838 /* Assets.xcassets */,
 				B7D1B1C82BCC564C00988838 /* LaunchScreen.storyboard */,
 				B7D1B1CB2BCC564C00988838 /* Info.plist */,
-				B707F5A42BD42B0200C31998 /* MenuAdministrdorViewController.swift */,
 				B74766CE2BD55FBD00AC3535 /* StoryboardPrueba.storyboard */,
-				B74766D02BD5608700AC3535 /* EmpleadosViewController.swift */,
-				B74766D22BD561ED00AC3535 /* EmpleadoTableViewCell.swift */,
-				B756AF242BDEC65B0049C8E5 /* CrearCuentaViewController.swift */,
-				B756AF252BDEC65B0049C8E5 /* ListarCategoriasTableViewCell.swift */,
-				B756AF282BDEC6DA0049C8E5 /* FarmaciaDataModel.xcdatamodeld */,
+				B7CB499F2BDEC92D00D04B02 /* FarmaciaDataModel.xcdatamodeld */,
 			);
 			path = MiFarmaciaMovil;
 			sourceTree = "<group>";
@@ -201,13 +203,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B74766D32BD561ED00AC3535 /* EmpleadoTableViewCell.swift in Sources */,
-				B756AF262BDEC65B0049C8E5 /* CrearCuentaViewController.swift in Sources */,
 				84394CBB2BD083AB00ABB41A /* MantenerCategoriasViewController.swift in Sources */,
 				B74766D12BD5608700AC3535 /* EmpleadosViewController.swift in Sources */,
 				B707F5A52BD42B0200C31998 /* MenuAdministrdorViewController.swift in Sources */,
 				B7D1B1C22BCC564B00988838 /* ViewController.swift in Sources */,
-				B756AF2A2BDEC6DA0049C8E5 /* FarmaciaDataModel.xcdatamodeld in Sources */,
-				B756AF272BDEC65B0049C8E5 /* ListarCategoriasTableViewCell.swift in Sources */,
+				B7CB49A12BDEC92D00D04B02 /* FarmaciaDataModel.xcdatamodeld in Sources */,
 				B7D1B1BE2BCC564B00988838 /* AppDelegate.swift in Sources */,
 				B7D1B1C02BCC564B00988838 /* SceneDelegate.swift in Sources */,
 				84394CBD2BD08B5C00ABB41A /* ListarCategoriasViewController.swift in Sources */,
@@ -428,14 +428,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		B756AF282BDEC6DA0049C8E5 /* FarmaciaDataModel.xcdatamodeld */ = {
+		B7CB499F2BDEC92D00D04B02 /* FarmaciaDataModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				B756AF292BDEC6DA0049C8E5 /* FarmaciaDataModel.xcdatamodel */,
+				B7CB49A02BDEC92D00D04B02 /* FarmaciaDataModel.xcdatamodel */,
 			);
-			currentVersion = B756AF292BDEC6DA0049C8E5 /* FarmaciaDataModel.xcdatamodel */;
-			name = FarmaciaDataModel.xcdatamodeld;
-			path = "../../../../../../Downloads/PR_MiFarmaciaMovil2.0-jeremy/MiFarmaciaMovil/MiFarmaciaMovil/FarmaciaDataModel.xcdatamodeld";
+			currentVersion = B7CB49A02BDEC92D00D04B02 /* FarmaciaDataModel.xcdatamodel */;
+			path = FarmaciaDataModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

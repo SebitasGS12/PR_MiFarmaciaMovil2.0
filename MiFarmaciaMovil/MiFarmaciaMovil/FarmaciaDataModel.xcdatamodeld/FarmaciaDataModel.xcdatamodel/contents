@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21513" systemVersion="22E252" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CategoriaEntity" representedClassName="CategoriaEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="estadoCategoria" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="idCategoria" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="nombreCategoria" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="EmpleadoEntity" representedClassName="EmpleadoEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="apellidoUsuario" optional="YES" attributeType="String"/>
+        <attribute name="correoUsuario" optional="YES" attributeType="String"/>
+        <attribute name="dniUsuario" optional="YES" attributeType="String"/>
+        <attribute name="estadoUsuario" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="idUsuario" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="nombreUsuario" optional="YES" attributeType="String"/>
+        <attribute name="numeroUsuario" optional="YES" attributeType="String"/>
+        <attribute name="passUsuario" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ProductoEntity" representedClassName="ProductoEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="cantidadProducto" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="estadoProducto" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="idCategoria" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="idProducto" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="idProveedor" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="idUnidadMedida" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="nombreProducto" optional="YES" attributeType="String"/>
+        <attribute name="precioProducto" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="ProveedorEntity" representedClassName="ProveedorEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="direccionProveedor" optional="YES" attributeType="String"/>
+        <attribute name="estadoProveedor" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="idProveedor" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="nombreProveedor" optional="YES" attributeType="String"/>
+        <attribute name="numeroProveedor" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="UnidadMedidaEntity" representedClassName="UnidadMedidaEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="estadoUnidadMedida" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="idUnidadMedida" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="nombreUnidadMedida" optional="YES" attributeType="String"/>
+    </entity>
+</model>
