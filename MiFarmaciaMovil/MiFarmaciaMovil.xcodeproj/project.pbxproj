@@ -11,9 +11,11 @@
 		84394CBD2BD08B5C00ABB41A /* ListarCategoriasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84394CBC2BD08B5C00ABB41A /* ListarCategoriasViewController.swift */; };
 		B707F5A52BD42B0200C31998 /* MenuAdministrdorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B707F5A42BD42B0200C31998 /* MenuAdministrdorViewController.swift */; };
 		B74766CF2BD55FBD00AC3535 /* StoryboardPrueba.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B74766CE2BD55FBD00AC3535 /* StoryboardPrueba.storyboard */; };
-		B74766D12BD5608700AC3535 /* EmpleadosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74766D02BD5608700AC3535 /* EmpleadosViewController.swift */; };
-		B74766D32BD561ED00AC3535 /* EmpleadoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74766D22BD561ED00AC3535 /* EmpleadoTableViewCell.swift */; };
 		B7CB49A12BDEC92D00D04B02 /* FarmaciaDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B7CB499F2BDEC92D00D04B02 /* FarmaciaDataModel.xcdatamodeld */; };
+		B7CB49AB2BDECEA200D04B02 /* MantenerEmpleadosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CB49AA2BDECEA200D04B02 /* MantenerEmpleadosViewController.swift */; };
+		B7CB49AD2BDECF4000D04B02 /* MantenerEmpleadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CB49AC2BDECF4000D04B02 /* MantenerEmpleadoViewController.swift */; };
+		B7CB49AF2BDECFA200D04B02 /* ListarProductoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CB49AE2BDECFA200D04B02 /* ListarProductoViewController.swift */; };
+		B7CB49B12BDED01400D04B02 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CB49B02BDED01400D04B02 /* LoginViewController.swift */; };
 		B7D1B1BE2BCC564B00988838 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D1B1BD2BCC564B00988838 /* AppDelegate.swift */; };
 		B7D1B1C02BCC564B00988838 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D1B1BF2BCC564B00988838 /* SceneDelegate.swift */; };
 		B7D1B1C22BCC564B00988838 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D1B1C12BCC564B00988838 /* ViewController.swift */; };
@@ -27,10 +29,12 @@
 		84394CBC2BD08B5C00ABB41A /* ListarCategoriasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListarCategoriasViewController.swift; sourceTree = "<group>"; };
 		B707F5A42BD42B0200C31998 /* MenuAdministrdorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuAdministrdorViewController.swift; sourceTree = "<group>"; };
 		B74766CE2BD55FBD00AC3535 /* StoryboardPrueba.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StoryboardPrueba.storyboard; sourceTree = "<group>"; };
-		B74766D02BD5608700AC3535 /* EmpleadosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpleadosViewController.swift; sourceTree = "<group>"; };
-		B74766D22BD561ED00AC3535 /* EmpleadoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpleadoTableViewCell.swift; sourceTree = "<group>"; };
 		B756AF2C2BDEC70B0049C8E5 /* ListarCategoriasTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListarCategoriasTableViewCell.swift; sourceTree = "<group>"; };
 		B7CB49A02BDEC92D00D04B02 /* FarmaciaDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FarmaciaDataModel.xcdatamodel; sourceTree = "<group>"; };
+		B7CB49AA2BDECEA200D04B02 /* MantenerEmpleadosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MantenerEmpleadosViewController.swift; sourceTree = "<group>"; };
+		B7CB49AC2BDECF4000D04B02 /* MantenerEmpleadoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MantenerEmpleadoViewController.swift; sourceTree = "<group>"; };
+		B7CB49AE2BDECFA200D04B02 /* ListarProductoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListarProductoViewController.swift; sourceTree = "<group>"; };
+		B7CB49B02BDED01400D04B02 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B7D1B1BA2BCC564B00988838 /* MiFarmaciaMovil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiFarmaciaMovil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7D1B1BD2BCC564B00988838 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7D1B1BF2BCC564B00988838 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +76,7 @@
 		B7CB49A62BDECA1800D04B02 /* producto */ = {
 			isa = PBXGroup;
 			children = (
+				B7CB49AE2BDECFA200D04B02 /* ListarProductoViewController.swift */,
 			);
 			path = producto;
 			sourceTree = "<group>";
@@ -79,9 +84,10 @@
 		B7CB49A72BDECA2600D04B02 /* empleado */ = {
 			isa = PBXGroup;
 			children = (
-				B74766D02BD5608700AC3535 /* EmpleadosViewController.swift */,
-				B74766D22BD561ED00AC3535 /* EmpleadoTableViewCell.swift */,
+				B7CB49AC2BDECF4000D04B02 /* MantenerEmpleadoViewController.swift */,
+				B7CB49AA2BDECEA200D04B02 /* MantenerEmpleadosViewController.swift */,
 				B707F5A42BD42B0200C31998 /* MenuAdministrdorViewController.swift */,
+				B7CB49B02BDED01400D04B02 /* LoginViewController.swift */,
 			);
 			path = empleado;
 			sourceTree = "<group>";
@@ -202,15 +208,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B74766D32BD561ED00AC3535 /* EmpleadoTableViewCell.swift in Sources */,
 				84394CBB2BD083AB00ABB41A /* MantenerCategoriasViewController.swift in Sources */,
-				B74766D12BD5608700AC3535 /* EmpleadosViewController.swift in Sources */,
+				B7CB49AB2BDECEA200D04B02 /* MantenerEmpleadosViewController.swift in Sources */,
+				B7CB49AD2BDECF4000D04B02 /* MantenerEmpleadoViewController.swift in Sources */,
 				B707F5A52BD42B0200C31998 /* MenuAdministrdorViewController.swift in Sources */,
 				B7D1B1C22BCC564B00988838 /* ViewController.swift in Sources */,
+				B7CB49AF2BDECFA200D04B02 /* ListarProductoViewController.swift in Sources */,
 				B7CB49A12BDEC92D00D04B02 /* FarmaciaDataModel.xcdatamodeld in Sources */,
 				B7D1B1BE2BCC564B00988838 /* AppDelegate.swift in Sources */,
 				B7D1B1C02BCC564B00988838 /* SceneDelegate.swift in Sources */,
 				84394CBD2BD08B5C00ABB41A /* ListarCategoriasViewController.swift in Sources */,
+				B7CB49B12BDED01400D04B02 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

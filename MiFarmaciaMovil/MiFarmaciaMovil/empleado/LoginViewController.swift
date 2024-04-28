@@ -1,19 +1,13 @@
 //
-//  EmpleadosViewController.swift
+//  LoginViewController.swift
 //  MiFarmaciaMovil
 //
-//  Created by DAMII on 21/04/24.
+//  Created by DAMII on 28/04/24.
 //
 
 import UIKit
 
-class EmpleadosViewController: UIViewController {
-    
-    
-
-    @IBOutlet weak var EmpleadosTableView: UITableView!
-    
-    
+class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
